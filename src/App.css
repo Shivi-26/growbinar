@@ -1,0 +1,154 @@
+.form-group{
+    margin-left: 200px;
+    width: 25rem;
+}
+.but{
+    position: absolute;
+    margin-right: 14px;
+}
+.search{
+    position: absolute;
+    margin-right: 90rem;
+}
+.btn-hover {
+    width: 180px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    text-align:center;
+    border: none;
+    border-radius: 9px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.galaxy{
+   margin-top: 160px;
+   margin-left: 110px;
+}
+.alexa{
+    position: absolute;
+    float: left;
+    top: 12rem;
+    margin-left: 20rem;
+}
+.slide{
+    position: absolute;
+    float: left;
+    top: -1rem;
+    padding-left: 5rem;
+}
+.card{
+    position: relative; 
+    top: -3rem;
+    left: 12rem;
+}
+.tech-card{
+    position: relative;
+    top: 35rem;
+    left: -23rem;
+}
+.second{
+    position: relative;
+    right: 12rem;
+}
+.bg{
+    height: 25rem;
+    width: 100%;
+    margin-top: 25rem;
+    background-color: #dcecf1;
+}
+.img{
+        box-shadow: 30px 0 -60px 0 rgba(116, 79, 168, 0.75);
+        box-shadow: 30px 0 60px 0 rgba(79, 48, 122, 0.75);
+        border-radius: 28px;
+}
+.box{
+    margin-top: 10rem;
+}
+.butt{
+    border-color: #8E37D7;
+    height: 2rem;
+    width: 10rem;
+    color: #8E37D7;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+.third{
+    margin-top: 10rem;
+}
+.float{
+    margin-left: 43rem;
+    margin-top: 10rem;
+}
+.dev{
+    color: #8E37D7;
+}
+.four{
+    justify-content: center;
+}
+.bord{
+    border-style: dotted
+}
+.fifth{
+    color: #8E37D7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
