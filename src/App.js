@@ -33,6 +33,7 @@ export default function App() {
                     <button className='btn btn-primary mt-2 but'>Sign UP</button>
                 </div>
             </nav>
+           <div className='bits'> 
             <div className='container mt-5 d-flex'>
                 <div className='mt-5'>
                     <h1 className='fs-3'><b>Get a career GPS with the help from top mentors around the globe.</b></h1>
@@ -56,18 +57,19 @@ export default function App() {
                     </div>
                 </div>
             </div>
+        </div>
             <nav className='navbar-light bg-light shadow-lg mt-5'>
                 <p className='text-center'><b>Mentors from top Organizations</b></p>
                 <div className='d-flex justify-content-center'>
-                    <img src="https://aniportalimages.s3.amazonaws.com/media/details/PAYUAYYAAYAJAJJAA20220805073246.jpg" height="50" width="65" className='ms-5' alt="" />
+                    <img src="https://aniportalimages.s3.amazonaws.com/media/details/PAYUAYYAAYAJAJJAA20220805073246.jpg" height="53" width="75" className='ms-2' alt="" />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg" height="50" width="65" className='ms-5' alt="" />
-                    <img src="https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg" height="50" width="65" className='ms-5' alt="" />
-                    <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="50" width="70" className='ms-5' alt="" />
-                    <img src="https://worldgbc.s3.eu-west-2.amazonaws.com/wp-content/uploads/2022/08/08145403/Deloitte_Logo.png" height="50" width="65" className='ms-5' alt="" />
-                    <img src="http://coursera-university-assets.s3.amazonaws.com/3d/5b6b32681044ec8f55baa5531c10a2/Acc_Logo_Black_Purple_RGB.png" height="65" width="65" className='ms-5' alt="" />
+                    <img src="https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg" height="55" width="82" className='ms-5' alt="" />
+                    <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" height="60" width="89" className='ms-5' alt="" />
+                    <img src="https://worldgbc.s3.eu-west-2.amazonaws.com/wp-content/uploads/2022/08/08145403/Deloitte_Logo.png" height="50" width="90" className='ms-5' alt="" />
+                    <img src="http://coursera-university-assets.s3.amazonaws.com/3d/5b6b32681044ec8f55baa5531c10a2/Acc_Logo_Black_Purple_RGB.png" height="65" width="96" className='ms-5' alt="" />
                     <img src="https://1000logos.net/wp-content/uploads/2017/09/Uber-logo.jpg" height="43" width="65" className='ms-5' alt="" />
-                    <img src="https://www.tata.com/content/dam/tata/images/home-page/desktop/logo_card_desktop_362x362.jpg" height="50" width="65" className='ms-5' alt="" />
-                    <img src="https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png" height="70" width="80" className='ms-5' alt="" />
+                    <img src="https://www.tata.com/content/dam/tata/images/home-page/desktop/logo_card_desktop_362x362.jpg" height="55" width="79" className='ms-5' alt="" />
+                    <img src="https://m.media-amazon.com/images/G/31/social_share/amazon_logo._CB633266945_.png" height="74" width="130" className='ms-5' alt="" />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/1200px-EY_logo_2019.svg.png" height="30" width="35" className='ms-5' alt="" />
                 </div>
             </nav>
