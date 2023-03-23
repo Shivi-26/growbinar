@@ -35,8 +35,8 @@ export default function App() {
                 </nav>
 
                 <div className='bits'>
-                    <div className='b'>
-                        <div className='container mt-3 d-flex'>
+                    <div className=''>
+                        <div className='container d-flex'>
                             <div className='mt-5'>
                                 <h1 className='fs-2 ms-5 mt-5'><b>Get a career GPS with the help from top mentors around the globe.</b></h1>
                                 <p className='fs-6 ms-5 text-primary mt-2'>Get started to grow your career with mentorship from the experienced people from the world's top organizations.  </p>

@@ -1,23 +1,26 @@
-.form-group{
+.form-group {
     margin-left: 200px;
     width: 25rem;
 }
-.but{
+
+.but {
     position: absolute;
     margin-right: 14px;
 }
-.search{
+
+.search {
     position: absolute;
     margin-top: 6px;
     right: 2rem;
 }
+
 .btn-hover {
     width: 180px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
     height: 40px;
-    text-align:center;
+    text-align: center;
     border: none;
     border-radius: 9px;
     -o-transition: all .4s ease-in-out;
@@ -35,54 +38,65 @@
 .btn-hover:focus {
     outline: none;
 }
+
 .btn-hover.color-3 {
     background-image: linear-gradient(to right, #667eea, #8E37D7);
     box-shadow: 0 4px 15px 0 rgba(34, 28, 41, 0.75);
 }
-.galaxy{
-   margin-top: 160px;
-   margin-left: 110px;
+
+.galaxy {
+    margin-top: 160px;
+    margin-left: 110px;
 }
-.alexa{
+
+.alexa {
     position: absolute;
     float: left;
     top: 12rem;
     margin-left: 20rem;
 }
-.slide{
+
+.slide {
     position: absolute;
     float: left;
     top: -1rem;
     padding-left: 5rem;
 }
-.card{
-    position: relative; 
+
+.card {
+    position: relative;
     top: -3rem;
     left: 12rem;
 }
-.tech-card{
+
+.tech-card {
     position: relative;
     top: 35rem;
     left: -23rem;
 }
-.second{
+
+.second {
     position: relative;
     right: 12rem;
 }
-.bg{
+
+.bg {
     height: 25rem;
     width: 100%;
     margin-top: 25rem;
     background-color: #dcecf1;
 }
-.img{
-        box-shadow: 30px 5px 60px 30px rgba(116, 79, 168, 0.75);
-        border-radius: 28px;
+
+.img {
+    box-shadow: 30px 5px 60px 30px rgba(116, 79, 168, 0.75);
+    border-radius: 28px;
 }
-.box{
+
+.box {
     margin-top: 10rem;
 }
-.butt{
+
+.butt {
     border-color: #8E37D7;
     height: 2rem;
     width: 10rem;
@@ -91,75 +105,128 @@
     margin-left: 1rem;
     border-radius: 2rem;
 }
-.third{
+
+.third {
     margin-top: 10rem;
 }
-.float{
+
+.float {
     margin-left: 43rem;
     margin-top: 10rem;
 }
-.dev{
+
+.dev {
     color: #8E37D7;
 }
-.four{
+
+.four {
     justify-content: center;
 }
-.bord{
+
+.bord {
     border-style: dashed;
     border-color: #c39ee0;
     border-radius: 1rem;
-    animation: move 15s 2;  /*move is keyframe name, 2s means two seconds,unlimited times play*/
+    animation: move-right 6s linear infinite;
+    /*move is keyframe name, 2s means two seconds,unlimited times play*/
     position: relative;
 }
-@keyframes move {
-    0%{left:0px;}
-    50%{left:20px;}
-    100%{left:0px;}
+
+@keyframes move-right {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 40%;
+    }
 }
-.fifth{
+
+.fifth {
     color: #8E37D7;
     margin-top: 10rem;
     text-align: center;
 }
-.grow{
+
+.grow {
     position: absolute;
 }
-.footer{
+
+.footer {
     height: 10rem;
 }
-.copy{
+
+.copy {
     margin-left: 30rem;
 }
-.title{
+
+.title {
     margin-top: 1rem;
     margin-left: 30rem;
 }
-.list{
+
+.list {
     margin-left: 60rem;
     margin-top: -2rem;
 }
-.bits{  
-    background: linear-gradient(#c99eeb,rgb(205, 232, 241),rgb(205, 240, 240));
-    border-top-right-radius: 95px; 
-    box-shadow: 40px 2px 20px 0 #dbc5ec;
+
+.bits {
+    background: linear-gradient(#ca95f1, rgba(205, 232, 241,0), rgba(205, 240, 240,1));
+    border-top-right-radius: 95px;
     border-bottom-right-radius: 95px;
     width: 60rem;
+    position: relative;
     height: 36rem;
-    border-color: transparent;
-    z-index: -1; 
+    z-index: -1;
 }
-.imag{
+.bits::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: -30px 0px 10px #c99eeb;
+    border-top-right-radius: 95px;
+    border-bottom-right-radius: 95px;
+    animation: shadow-move 2s ease-in-out infinite;
+    
+  }
+  
+  @keyframes shadow-move {
+    0% {
+      box-shadow: -20px 0px 10px #c99eeb;
+    }
+    50% {
+      box-shadow: 20px 0px 10px #c99eeb;
+    }
+    100% {
+      box-shadow: -20px 0px 10px #c99eeb;
+    }
+  }
+.imag {
     margin-left: 70rem;
     position: absolute;
     margin-top: -5rem;
 }
-.awadh{
-    animation: move 15s linear infinite;  /*move is keyframe name, 2s means two seconds,unlimited times play*/
+
+.awadh {
+    animation: move 15s linear infinite;
+    /*move is keyframe name, 2s means two seconds,unlimited times play*/
     position: relative;
 }
-@keyframes move {
-    0%{top:0px;}
-    50%{top:20px;}
-    100%{top:0px;}
-}
 
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 20px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
