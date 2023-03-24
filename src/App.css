@@ -88,8 +88,8 @@
 }
 
 .img {
-    box-shadow: 30px 5px 60px 30px rgba(116, 79, 168, 0.75);
     border-radius: 28px;
+    box-shadow: -25px 0 10px rgba(191, 158, 231, 0.5), 35px 0 10px rgba(204, 221, 231, 0.5) ,0 -20px 20px rgba(201, 171, 235, 0.5), 0 32px 40px rgba(164, 218, 240, 0.5);
 }
 
 .box {
@@ -127,7 +127,9 @@
     border-style: dashed;
     border-color: #c39ee0;
     border-radius: 1rem;
-    animation: move-right 6s linear infinite;
+    width: 100%;
+    
+    animation: move-right 2s linear infinite;
     /*move is keyframe name, 2s means two seconds,unlimited times play*/
     position: relative;
 }
@@ -138,7 +140,7 @@
     }
 
     100% {
-        left: 40%;
+        transform: translateX(-20%);
     }
 }
 
@@ -171,40 +173,49 @@
 }
 
 .bits {
-    background: linear-gradient(#ca95f1, rgba(205, 232, 241,0), rgba(205, 240, 240,1));
-    border-top-right-radius: 95px;
-    border-bottom-right-radius: 95px;
-    width: 60rem;
+    background: linear-gradient(to right, rgba(168, 125, 218,0.8), rgba(191, 241, 239, 0.8), rgba(170, 218, 219, 0.1));
+    border-top-right-radius: 105px;
+    border-bottom-right-radius: 105px;
+    width: 50rem;
     position: relative;
     height: 36rem;
     z-index: -1;
 }
+
 .bits::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    z-index: -1;
-    box-shadow: -30px 0px 10px #c99eeb;
-    border-top-right-radius: 95px;
-    border-bottom-right-radius: 95px;
-    animation: shadow-move 2s ease-in-out infinite;
-    
-  }
-  
-  @keyframes shadow-move {
+    left: 40%;
+    width: 60%;
+    height: 90vh;
+    margin-top: 12px;
+    margin-right: 122px;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 105px;
+    background: linear-gradient(to right, rgba(168, 125, 218,0), rgba(191, 241, 239, 0.4), rgba(170, 218, 219, 0.9));
+    filter: blur(5px);
+    transform: translateX(10%);
+    animation: blur 54s linear infinite;
+}
+
+@keyframes blur {
     0% {
-      box-shadow: -20px 0px 10px #c99eeb;
+        transform: translateX(40%);
     }
-    50% {
-      box-shadow: 20px 0px 10px #c99eeb;
-    }
+
     100% {
-      box-shadow: -20px 0px 10px #c99eeb;
+        transform: translateX(-20%);
     }
-  }
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+}
+
 .imag {
     margin-left: 70rem;
     position: absolute;
@@ -229,4 +240,26 @@
     100% {
         top: 0px;
     }
+}
+
+.pink {
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(176, 241, 241);
+    filter: blur(30px);
+    border-radius: 50%;
+    top: -46px;
+    position: relative;
+    left: 57px;
+}
+
+.blue {
+    width: 15rem;
+    height: 15rem;
+    background-color: #c99eeb;
+    filter: blur(30px);
+    border-radius: 50%;
+    position: relative;
+    top: -5rem;
+    left: 150px;
 }

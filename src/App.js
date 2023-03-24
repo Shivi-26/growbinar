@@ -50,7 +50,7 @@ export default function App() {
                                     <div className='col-md-2 mt-5 ms-5 awadh'>
                                         <img src="https://media.licdn.com/dms/image/C5622AQEYUJwIrCgBMQ/feedshare-shrink_800/0/1678500689460?e=1681948800&v=beta&t=5ENw8I-R7HMkh6HLZL1KSkO_bdqP3D8btvL484moyu4" height="130" width="210" className='ms-5 rounded-top rounded-bottom' alt="" />
                                     </div>
-                                    <div className='col-md-6 ms-5 awadh'>
+                                    <div className='col-md-6 me-5 awadh'>
                                         <img src="https://media.licdn.com/dms/image/C4D22AQHCjT7moNCZRg/feedshare-shrink_800/0/1675934759319?e=1680739200&v=beta&t=vR-l5WZvANINCWAl-SNJDcOJ3oI_hIinaA7c0lrXHgY" height="140" width="230" className='ms-5 rounded-top rounded-bottom' alt="" />
                                     </div>
                                     <div className='col-md-2 mt-5 ms-5 awadh'>
@@ -98,6 +98,8 @@ export default function App() {
                                         <p className='d-flex'><b>Mayuri Shah</b></p>
                                         <p className='me-5'>Student</p>
                                     </div>
+                                    <div className="pink"></div>
+                                    <div className="blue"></div>
                                     <img src={img2} height="300" width="450" className='img-responsive rounded-top rounded-bottom slide ' alt="" />
                                     <img src={img3} height="200" width="180" className='img-responsive alexa' alt="" />
                                 </div>
@@ -111,6 +113,5 @@ export default function App() {
             </div>
             <Phone />
         </div>
-
     )
 }
